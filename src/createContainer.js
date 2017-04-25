@@ -2,7 +2,7 @@
 
 import isEqual from 'lodash/isEqual';
 import React from 'react';
-import Relay from 'react-relay';
+import Relay from 'react-relay/classic';
 import type { RelayContainerSpec } from 'react-relay/lib/RelayContainer';
 
 import type Subscription from './Subscription';
